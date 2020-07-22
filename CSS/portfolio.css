@@ -1,0 +1,169 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primery-background-color: #ffffff;
+}
+/* МОЯ ПАЛИТРА */
+/* Цвет лого #000000; #2196F3; */
+/* Цвет основного текста #212121; */
+/* Вторичный цвет текста  #757575; */
+/* Акцент #2196F3; */
+/* Фон страницы белый #FFFFFF; */
+/* Вторичный фон #F5F4FA; */
+/* вторичный фон 2 rgba(47, 48, 58, 0.8) */
+/* Фон футера #2F303A; */
+/* Цвет лого соцсетей #AFB1B8; */
+/* Цвет адреса и телефона в футере rgba(255, 255, 255, 0.6) */
+
+body {
+  background-color: var(--primery-background-color);
+  color: var(--primary-text-color);
+
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+ul {
+  list-style: none;
+}
+
+span {
+  color: var(--accent-color);
+}
+button {
+  font-family: inherit;
+}
+
+/* Логотип */
+.logo {
+  color: #000000;
+
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+  list-style: none;
+}
+.logo:hover,
+.logo:focus {
+  color: var(--accent-color);
+}
+
+/* Стилизация навигации сайта */
+.site-nav .link {
+  color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.contact-nav .link {
+  color: var(--primary-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.contact-nav .link:hover,
+.contact-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+/* Оформление кнопок */
+
+.button-nav {
+  color: var(--title-text-color);
+  background-color: #f5f4fa;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+
+  padding: 6px 22px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  min-width: 73px;
+  display: inline-block;
+}
+.button-nav:hover,
+.button-nav:focus{
+   color: var(--primery-background-color);
+   background-color: var(--accent-color);
+
+   border: 1px solid transparent;
+   border-radius: 4px;
+   
+   
+   }
+/* Галерея портфолио */
+.title {
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.list {
+  color: var(--primary-text-color);
+
+  font-size: 16px;
+  line-height: 1.87;
+}
+.text {
+  color: var(--primery-background-color);
+  background-color: var(--accent-color);
+
+  font-size: 18px;
+  line-height: 1.56;
+}
+
+/* Футер */
+footer {
+  color: var(--primery-background-color);
+  background-color: #2f303a;
+}
+address {
+  color: var(--primery-background-color);
+}
+.footer-logo {
+  color: var(--primery-background-color);
+
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+.footer-logo:hover,
+.footer-logo:focus {
+  color: var(--accent-color);
+}
+
+.footer-contact {
+  font-size: 14px;
+  line-height: 1.71;
+}
+.footer-contact-list {
+  color: rgba(255, 255, 255, 0.6);
+
+  font-size: 14px;
+  line-height: 1.71;
+}
+.footer-appeal {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.71;
+  text-transform: uppercase;
