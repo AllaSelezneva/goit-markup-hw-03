@@ -380,6 +380,7 @@ footer {
 }
 address {
   color: var(--primery-background-color);
+  font-style: inherit;
 }
 .footer {
   display: flex;

@@ -256,6 +256,7 @@ footer {
 }
 address {
   color: var(--primery-background-color);
+  font-style: inherit;
 }
 .footer {
   display: flex;
@@ -357,7 +358,6 @@ line-height: 1.87;
 
 color: color: var(--primery-background-color);
 background-color: var(--accent-color);
-
 }
 .img-send{
 margin-left: 10px;
