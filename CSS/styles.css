@@ -359,7 +359,7 @@ span {
   border: 1px solid #afb1b8;
   border-radius: 4px;
   width: 170px;
-  /* text-align: center; */
+  text-align: center;
   /* width: calc((100% - 150px) / 6); */
 
   margin-right: 30px;
@@ -368,6 +368,8 @@ span {
   margin-right: 0;
 }
 .clients-logo {
+  margin-top: 21px;
+  margin-bottom: 21px;
   /* display: block; */
 }
 
@@ -391,6 +393,7 @@ address {
   margin-right: 30px;
 }
 .footer-box-2 {
+  
   width: 570px;
 }
 .footer-logo {
@@ -437,10 +440,49 @@ address {
   margin-bottom: 0;
 }
 .footer-appeal {
+  display: block;
+
   font-weight: 700;
   font-size: 14px;
   line-height: 1.71;
   text-transform: uppercase;
 
-  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.input{
+  display: flex;
+}
+.net {
+  margin-right: 10px;
+}
+.net:last-child {
+  margin-right: 0;
+}
+.footer-input {
+width: 358px;
+height: 50px;
+
+font-weight: 700;
+Font-Size: 16px;
+line-height: 1.87;
+
+color: var(--primery-background-color);
+background-color: #2f303a;
+
+margin-right: 12px;
+}
+.send{
+width: 200px;
+height: 50px;
+
+font-weight: 700;
+Font-Size: 16px;
+line-height: 1.87;
+
+color: color: var(--primery-background-color);
+background-color: var(--accent-color);
+
+}
+.img-send{
+margin-left: 10px;
 }
