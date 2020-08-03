@@ -216,6 +216,7 @@ span {
 }
 .title {
   display: flex;
+ 
 }
 .img {
   display: block;
@@ -247,6 +248,9 @@ span {
 
   margin: 0;
 }
+.item{
+   list-style: none;
+}
 /* Чем мы занимаемся */
 .us {
   display: flex;
@@ -263,14 +267,13 @@ span {
   padding-bottom: 50px;
   margin: 0;
 }
-.subtitle-us {
+.subtitle-us { 
   display: flex;
+} 
+.us-item{
+ width: calc((100%-60px) / 3); 
 }
-.box-us {
-  /* width: 370px; */
-  width: calc((100%-60px) / 3);
-}
-.subtitle-us .box-us:not(:last-child) {
+.subtitle-us .us-item:not(:last-child) {
   margin-right: 30px;
 }
 .img-us {
@@ -285,7 +288,7 @@ span {
 
   color: #ffffff;
   background-color: rgba(47, 48, 58, 0.8);
-}
+} 
 /* Секция Наша команда */
 .section-work {
   background-color: #f5f4fa;
