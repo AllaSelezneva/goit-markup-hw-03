@@ -4,7 +4,6 @@
   --accent-color: #2196f3;
   --primery-background-color: #ffffff;
 }
-
 /* МОЯ ПАЛИТРА */
 /* Цвет лого #000000; #2196F3; */
 /* Цвет основного текста #212121; */
@@ -16,7 +15,6 @@
 /* Фон футера #2F303A; */
 /* Цвет лого соцсетей #AFB1B8; */
 /* Цвет адреса и телефона в футере rgba(255, 255, 255, 0.6) */
-
 html {
   box-sizing: border-box;
 }
@@ -48,9 +46,6 @@ h3 {
   margin-bottom: 0;
 }
 /* Шапка сайта */
-
-/* .page-header {} */
-
 .container {
   width: 1200px;
 
@@ -64,7 +59,6 @@ h3 {
   align-items: center;
   justify-content: space-between;
 }
-
 /* Логотип */
 span {
   color: var(--accent-color);
@@ -84,12 +78,10 @@ span {
   padding-bottom: 25px;
   margin-right: 85px;
 }
-
 .logo:hover,
 .logo:focus {
   color: var(--accent-color);
 }
-
 /* Стилизация навигации сайта */
 .site-nav {
   padding: 0;
@@ -101,7 +93,6 @@ span {
 .site-nav .item:not(:last-child) {
   margin-right: 50px;
 }
-
 .site-nav .item .link {
   display: block;
 
@@ -145,11 +136,12 @@ span {
 .contact-nav .link:focus {
   color: var(--accent-color);
 }
-
+.contact-img {
+  margin-right: 10px;
+}
 /* Стилизация Героя */
 .hero {
   text-align: center;
-
   background-color: var(--primary-text-color);
 }
 .hero-title {
@@ -181,7 +173,6 @@ span {
   border-radius: 4px;
   border: 1px solid transparent;
 }
-
 .hidden {
   position: absolute !important;
   clip: rect(1px 1px 1px 1px);
@@ -193,7 +184,6 @@ span {
   width: 1px !important;
   overflow: hidden;
 }
-
 /* .invisible-title {
   margin-top: 0px;
   margin-bottom: 0px;
@@ -209,12 +199,10 @@ span {
   clip: rect(0 0 0 0);
   overflow: hidden;
 } */
-
 /* Секции Наши приемущества */
-
 .section,
 .section-work {
-  /* padding-top: 94px; */
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 .advantages {
@@ -259,8 +247,6 @@ span {
 
   margin: 0;
 }
-/* .flex-item  */
-
 /* Чем мы занимаемся */
 .us {
   display: flex;
@@ -300,7 +286,6 @@ span {
   color: #ffffff;
   background-color: rgba(47, 48, 58, 0.8);
 }
-
 /* Секция Наша команда */
 .section-work {
   background-color: #f5f4fa;
@@ -351,7 +336,6 @@ span {
   display: flex;
   justify-content: center;
 }
-
 .clients-item {
   display: flex;
 }
@@ -394,7 +378,6 @@ address {
   margin-right: 30px;
 }
 .footer-box-2 {
-  
   width: 570px;
 }
 .footer-logo {
@@ -482,7 +465,6 @@ line-height: 1.87;
 
 color: color: var(--primery-background-color);
 background-color: var(--accent-color);
-
 }
 .img-send{
 margin-left: 10px;

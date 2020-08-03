@@ -148,6 +148,10 @@ span {
 .contact-nav .link:focus {
   color: var(--accent-color);
 }
+.contact-img{
+  margin-right: 10px;
+  
+}
 /* Оформление кнопок */
 .section {
   padding-top: 94px;
@@ -216,7 +220,6 @@ span {
   display: block;
   margin-left: 0;
 }
-
 .text {
   font-size: 18px;
   line-height: 1.56;
@@ -248,7 +251,6 @@ span {
   margin-left: 24px;
   margin-right: 24px;
 }
-
 /* Подвал сайта*/
 footer {
   color: var(--primery-background-color);
